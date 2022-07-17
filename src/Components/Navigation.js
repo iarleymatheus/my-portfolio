@@ -2,10 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import avatar from '../img/perfil.jpg';
+import "animate.css";
 
 function Navigation() {
   return (
-    <NavigationStyled>
+    <NavigationStyled className='animate__fadeInLeftBig'>
         <div className='avatar'>
             <img src={avatar} alt=''></img>
         </div>
